@@ -1,0 +1,12 @@
+{
+  "id": "screenContrast",
+  "name": "Screen Contrast",
+  "description": "Adjust DMS display contrast from Control Center.",
+  "version": "1.0.0",
+  "type": "widget",
+  "capabilities": ["control-center"],
+  "component": "./ContrastWidget.qml",
+  "icon": "contrast",
+  "requires_dms": ">=2.1.0",
+  "permissions": ["settings_read", "settings_write"]
+}
